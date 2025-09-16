@@ -1,0 +1,15 @@
+{
+  "name": "aave-stats-wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "aave_stats_wasm_bg.wasm",
+    "aave_stats_wasm.js",
+    "aave_stats_wasm.d.ts"
+  ],
+  "main": "aave_stats_wasm.js",
+  "types": "aave_stats_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
